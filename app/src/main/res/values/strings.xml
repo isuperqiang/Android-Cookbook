@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">菜谱</string>
+    <string name="hint_material">材料:</string>
+    <string name="hint_method">做法:</string>
+    <string-array name="category_title">
+        <item>川菜</item>
+        <item>粤菜</item>
+        <item>浙菜</item>
+        <item>沪菜</item>
+        <item>湘菜</item>
+        <item>鲁菜</item>
+        <item>闽菜</item>
+        <item>苏菜</item>
+        <item>徽菜</item>
+    </string-array>
+    <string-array name="category_description">
+        <item>素来享有”一菜一格，百菜百味“的声誉，在烹调方法上有炒、煎、干烧、炸、熏、泡、炖、焖、烩、贴、爆等
+三十八种之多。在口味上特别讲究色、香、味、形，兼有南北之长，以味的多、广、厚著称。</item>
+         <item>由广州菜、潮州菜、东江菜三种地方风味组成。用料庞杂，选料精细，风味讲究，清而不淡，鲜而不俗，
+嫩而不生，油而不腻。夏秋力求清淡，冬春偏重浓郁。擅长小炒，要求掌握火候和油温恰到好处。</item>
+         <item>以杭州、宁波、绍兴三种地方风味菜为代表。烹调方法以爆、炒、烩、炸为主，清鲜爽脆。京师人南下开饭店，
+用被北方的烹调方法，将南方的丰富的原料做得美味可口，”南料北烹“成为浙菜系一大特色。</item>
+         <item>上海菜，习惯叫”本邦菜“，是从农家便饭发展而来，比较朴素实惠，以红烧、是生煸见长，口味较重，善浓油赤酱，
+颇有家常风味。以红烧、生煸和煨法为多，爱用浓油赤酱。汤卤醇厚，注重原味，咸淡适口。</item>
+         <item>由湘江流域、洞庭湖地区和湘西山区等地方菜发展而成。其制作精细，用料广泛，品种繁多，其特色是油多、
+色浓，讲究实惠。在品味上驻中国香酥、酸辣、软嫩。湘西菜擅长香酸辣，具有浓郁的山乡风味。</item>
+         <item>八大菜系之首当推鲁菜，主要由济南和胶东地方菜组成。济南系以爆、烧、炒、炸见长，菜品以清、鲜、脆、嫩著称，
+讲究清汤和奶汤的调剂。胶东菜擅长爆、炒、炸、扒、蒸，口味以鲜为主，偏重清淡。</item>
+         <item>闽菜系历来以选料精细，刀工严谨和以味取胜而著称。讲究火候、调汤、佐料，其烹饪技艺有四个鲜明的特征。
+采用细致入微的片、切、剞等刀法，使不同质地的原料达到入味透彻的效果。</item>
+         <item>苏菜系由淮扬、苏锡、徐海三大地方风味菜肴组成，以淮扬菜为主体。淮扬菜在烹调技艺上，多用炖、焖、煨、焐之法；
+苏锡菜注重造型，讲究美观，色调绚丽；徐海菜菜肴色调浓郁，口味偏咸，习尚五辛。</item>
+         <item>皖南的徽州菜是徽菜系的主要代表，起源于黄山山麓下的歙县，即古代的徽州。在烹调技艺上擅长烧、炖、蒸，
+而爆、炒菜较少，重油、重色、重火工。</item>
+    </string-array>
+    <string name="readme">  本“家常菜菜谱”收集了各大菜系的家常菜制作过程，易学易做，希望成为您的厨房好帮手。
+        “家常菜菜谱”为全家人奉上营养均衡、健康美味的家常好菜。 如果您觉得此软件还不错的话，记得推荐给好友使用哦！
+声明：本程序永久免费使用，所有菜谱数据已内置，无需联网，节省流量！资料来源于网络，如有侵犯您的权益,请及时告知！
+使用中遇到的任何问题，欢迎反馈！联系方式：E-mail:isuperqiang@foxmail.com
+        </string>
+    <string name="favor">收藏</string>
+    <string name="search">搜索</string>
+    <string name="no_favor">没有收藏的菜谱</string>
+    <string name="loading">正在加载中，请稍后…</string>
+    <string name="image_splash">Splash Image</string>
+    <string name="image_detail">Detail Image</string>
+    <string name="main_more">更多</string>
+    <string name="main_favor">收藏</string>
+    <string name="main_category">分类</string>
+    <string name="main_index">首页</string>
+    <string name="image_index">首页推荐菜</string>
+    <string name="more_help">关于/帮助</string>
+    <string name="more_recommend">推荐好友</string>
+    <string name="more_check_update">检查更新</string>
+    <string name="image_cook">Cook Item Image</string>
+    <string name="favor_succeed">收藏成功</string>
+    <string name="cancel_favor">取消收藏</string>
+    <string name="search_hint">请输入菜名</string>
+    <string name="image_indicator">index page indicator</string>
+    <string name="text_recommend">今日推荐</string>
+    <string name="more_setting">通用设置</string>
+    <string name="text_new_version">已是最新版本，无需更新！</string>
+    <string name="text_wait">请稍后...</string>
+    <string name="text_checking">正在检查新版本</string>
+    <string name="text_intro">软件简介</string>
+    <string name="text_ok">确定</string>
+    <string name="more_ads">推荐应用</string>
+    <string name="more_feedback">反馈建议</string>
+    <string name="exit_hint">再按一次退出程序</string>
+</resources>

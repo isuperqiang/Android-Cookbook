@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="5dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_more_update"
+        style="@style/more_fgt_style"
+        android:text="@string/more_check_update"
+        />
+
+    <TextView
+        android:id="@+id/tv_more_help"
+        style="@style/more_fgt_style"
+        android:text="@string/more_help"
+        />
+
+    <TextView
+        android:id="@+id/tv_more_recommend"
+        style="@style/more_fgt_style"
+        android:text="@string/more_recommend"
+        />
+
+    <TextView
+        android:id="@+id/tv_more_setting"
+        style="@style/more_fgt_style"
+        android:text="@string/more_setting"
+        />
+
+    <TextView
+        android:id="@+id/tv_more_ads"
+        style="@style/more_fgt_style"
+        android:text="@string/more_ads"
+        />
+
+    <TextView
+        android:id="@+id/tv_more_feedback"
+        style="@style/more_fgt_style"
+        android:text="@string/more_feedback"
+        />
+</LinearLayout>

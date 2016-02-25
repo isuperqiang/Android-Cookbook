@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.silence.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_gp_tab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_btn_index"
+            style="@style/tab_menu_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/tab_menu_index"
+            android:text="@string/main_index"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_btn_cat"
+            style="@style/tab_menu_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/tab_menu_category"
+            android:text="@string/main_category"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_btn_fav"
+            style="@style/tab_menu_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/tab_menu_favorite"
+            android:text="@string/main_favor"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_btn_more"
+            style="@style/tab_menu_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/tab_menu_more"
+            android:text="@string/main_more"
+            />
+    </RadioGroup>
+
+</LinearLayout>

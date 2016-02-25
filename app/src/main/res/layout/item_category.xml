@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_cat_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="鱼香肉丝"
+        android:textColor="@color/holo_red_light"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tv_cat_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="1dp"
+        android:text="将鱼两面各切３分，酸菜搌干水分，切成细丝，泡红辣椒剁碎，泡姜切成粒； 炒锅置中火上，下熟菜油烧至六成热，放入鱼炸呈黄色时捞出； 锅内留油，放入泡红辣椒、姜、葱花，再掺入肉汤，将鱼放入汤内。"
+        android:textColor="@color/cookbook_method"
+        android:textSize="14sp"/>
+</LinearLayout>

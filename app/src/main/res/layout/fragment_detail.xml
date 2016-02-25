@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.silence.activity.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/iv_detail"
+            android:layout_width="300dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/image_detail"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/recipe_1"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/line"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_material"
+                android:textColor="@color/detail_hint"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_detail_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="2dp"
+                android:text="草鱼600克，泡酸菜100克 泡红辣椒25克，泡仔姜、葱花各15克，花椒3克，蒜5克，精盐4克，料酒10克 肉汤500克，熟菜油500克"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/line"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_method"
+                android:textColor="@color/detail_hint"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_detail_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="2dp"
+                android:text="将鱼两面各切３分，酸菜搌干水分，切成细丝，泡红辣椒剁碎，泡姜切成粒； 炒锅置中火上，下熟菜油烧至六成热，放入鱼炸呈黄色时捞出； 锅内留油，放入泡红辣椒、姜、葱花，再掺入肉汤，将鱼放入汤内。汤沸后移至小火上，放入泡酸菜，烧约１０分钟，盛入盘。锅内加入醋。"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

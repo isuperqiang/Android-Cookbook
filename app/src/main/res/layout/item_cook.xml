@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/iv_cook"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/image_cook"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_cook_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="鱼香肉丝"
+            android:textColor="@color/holo_red_light"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_cook_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:maxLines="3"
+            android:lineSpacingExtra="2dp"
+            android:text="草鱼600克，泡酸菜100克 泡红辣椒25克，泡仔姜、葱花各15克，花椒3克，蒜5克，精盐4克，料酒10克 肉汤500克，熟菜油500克"
+            android:textColor="@color/cookbook_method"/>
+    </LinearLayout>
+</LinearLayout>
