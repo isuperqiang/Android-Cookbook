@@ -4,8 +4,11 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +17,7 @@ import android.widget.Toast;
 import com.silence.caipu.R;
 import com.silence.utils.Const;
 
+import java.io.File;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -78,8 +82,16 @@ public class MoreFgt extends Fragment implements View.OnClickListener {
             case R.id.tv_more_ads:
             case R.id.tv_more_feedback:
             case R.id.tv_more_setting:
-            case R.id.tv_more_recommend:
                 Toast.makeText(mContext, "未实现的功能", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.tv_more_recommend:
+                Intent intent = new Intent();
+                intent.setType("image/*");
+                intent.setAction(Intent.ACTION_SEND);
+                File file = new File(mContext.getFilesDir() + File.separator + "share.png");
+                intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(file));
+                intent.putExtra(Intent.EXTRA_TEXT, "推荐给你一个好玩的的应用--家常菜菜谱");
+                startActivity(intent);
                 break;
         }
     }

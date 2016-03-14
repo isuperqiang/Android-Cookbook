@@ -114,8 +114,9 @@ public class SplashActivity extends AppCompatActivity {
         String filePath = getFilesDir().getPath() + File.separator;
         for (int i = 1; i <= 303; i++) {
             String imagePath = filePath + "recipe_" + i + ".jpg";
-            FileUtils.writeData(SplashActivity.this, imagePath, imageId[i - 1]);
+            FileUtils.writeData(this, imagePath, imageId[i - 1]);
         }
+        FileUtils.writeData(this, filePath + "share.png", R.raw.img_share);
         String dbPath = getDir(Const.DB_DIR, MODE_PRIVATE) + File.separator + Const.DB_NAME;
         FileUtils.writeData(SplashActivity.this, dbPath, R.raw.cookbook);
     }
